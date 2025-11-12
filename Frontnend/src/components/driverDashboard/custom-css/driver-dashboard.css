@@ -1,0 +1,18 @@
+.dashboard-main {
+    min-height: 400px; /* Ensure the dashboard has a minimum height */
+    width: 100%;
+    height: calc(100vh - 70px);
+  }
+  
+  .map-container {
+    height: 100%;
+    width: 100%;
+  }
+  .w-lg-67 {
+    width: 100%;
+  }
+  @media (min-width: 992px) {
+    .w-lg-67 {
+      width: 67%;
+    }
+  }

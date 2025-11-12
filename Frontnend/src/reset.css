@@ -1,0 +1,20 @@
+/* src/reset.css */
+html, body, #root {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Pin header fixed */
+.header-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+ 
+  z-index: 1050;
+}

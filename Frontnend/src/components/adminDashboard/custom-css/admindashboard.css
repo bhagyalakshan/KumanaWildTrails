@@ -1,0 +1,31 @@
+/* Ensure the map and Todaystatard card have consistent heights */
+#overview .row {
+  min-height: 500px; /* Set a minimum height for the row */
+}
+
+/* Style for the MapView container */
+.map-view-container {
+  height: 100%;
+  min-height: 500px; /* Match the Todaystatard card height */
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  #overview .row {
+    min-height: auto; /* Allow flexibility on smaller screens */
+  }
+
+  .map-view-container {
+    min-height: 300px; /* Smaller height for mobile */
+  }
+
+  .card {
+    max-height: 620px; /* Adjust max height for smaller screens */
+  }
+}
+
+/* Ensure the card body scrolls if content overflows */
+.card-body {
+  overflow-y: auto;
+}

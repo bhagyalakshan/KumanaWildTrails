@@ -1,0 +1,119 @@
+/* Keep header pill shape and avoid vertical expansion */
+.header-nav {
+  height: 80px;
+  overflow: visible;
+  border-radius: 50px !important;
+  background-color: rgba(255, 255, 255, 0.96);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Transition */
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+/* Text and logo */
+.head {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* Nav links */
+.nav-link {
+  white-space: nowrap;
+}
+
+.nav-gap .nav-link {
+  margin-right: 0.8rem;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  color: #bbefbf !important;
+  background-color: rgba(255, 255, 255, 0.96) !important;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+/* Desktop hover dropdown */
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  .wider-nav {
+    width: 75%;
+    margin-left: -2rem;
+  }
+}
+
+/* Mobile popup dropdown (outside header, fixed with margin + radius) */
+.mobile-popup-dropdown {
+  position: fixed;
+  top: 100px; /* distance from top of screen */
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  z-index: 1050;
+  padding: 0.8rem 1rem;
+  width: 90%;
+  max-width: 320px;
+  margin-top: 10px; /* extra spacing below header */
+}
+
+.mobile-popup-dropdown .dropdown-link {
+  display: block;
+  padding: 10px 15px;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.mobile-popup-dropdown .dropdown-link:hover {
+  background-color: #f2f2f2;
+}
+
+/* Collapse menu styles on mobile */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    padding: 0.5rem 0;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 0 !important;
+    width: 100%;
+  }
+
+  .head {
+    font-size: 0.9rem;
+  }
+
+  .nav-gap .nav-link {
+    margin: 0.5rem 0;
+  }
+}
+.nav-item-with-dot {
+  position: relative;
+}
+
+.active-dot {
+  position: absolute;
+  top: 4px;
+  left: 0px; /* Move dot to the left */
+  height: 8px;
+  width: 8px;
+  background-color: #14532d; /* Dark Green */
+  border-radius: 50%;
+}
+
+.small-head {
+  font-size: 0.75rem; /* smaller font size for mobile */
+  font-weight: 200;
+  letter-spacing: 1px;
+  /* you can add spacing or other adjustments here */
+}

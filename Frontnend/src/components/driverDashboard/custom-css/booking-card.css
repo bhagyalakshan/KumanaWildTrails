@@ -1,0 +1,76 @@
+/* Custom color variables */
+:root {
+    --teal: #2a9d8f;
+    --teal-dark: #21867a;
+    --teal-light: #e6f2f1;
+    --coral: #e76f51;
+    --coral-dark: #d45a3c;
+    --coral-light: #fbe9e5;
+  }
+  
+  .bookingCard{
+    background-color: #e2fff18f;
+  }
+  /* Teal button variant */
+  .btn-teal {
+    background-color: var(--teal);
+    border-color: var(--teal);
+    color: white;
+  }
+  
+  .btn-teal:hover, .btn-teal:focus {
+    background-color: var(--teal-dark);
+    border-color: var(--teal-dark);
+    color: white;
+  }
+  
+  .btn-outline-teal {
+    background-color: transparent;
+    border-color: var(--teal);
+    color: var(--teal);
+  }
+  
+  .btn-outline-teal:hover, .btn-outline-teal:focus {
+    background-color: var(--teal);
+    border-color: var(--teal);
+    color: white;
+  }
+  
+  /* Coral button variant */
+  .btn-coral {
+    background-color: var(--coral);
+    border-color: var(--coral);
+    color: white;
+  }
+  
+  .btn-coral:hover, .btn-coral:focus {
+    background-color: var(--coral-dark);
+    border-color: var(--coral-dark);
+    color: white;
+  }
+  
+  /* Responsive improvements */
+  .booking-list-container {
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+  
+  /* Card styling */
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive button adjustments */
+  @media (max-width: 576px) {
+    .d-md-flex {
+      flex-direction: column;
+    }
+    
+    .btn {
+      padding: 0.5rem 1rem;
+    }
+  }

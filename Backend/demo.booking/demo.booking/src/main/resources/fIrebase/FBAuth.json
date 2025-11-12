@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "kumanawildtrails-83deb",
+  "private_key_id": "3254f8bc5caa38eee3068dfcf948f2152b867278",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCytlT4mSfxQmEm\nkazd3WTEweDfVEXv4lGuKVF99tXc8ZixIHdQFdYw3uNTNpdIfdo5KGyQScbq9Igq\naEzigXspP0IRPWBYwQX/s2oJbLd+xl/6RpWF1FVCHve1Dg3Fbs0L6Djb32LIZKk9\nZjb83g7gQzV7oI2eFW15sSAB05fzBU55ITiiBu3x8LpT9PZQ2Ogee4pSmEU959Z0\n43hWzD+zyDy+6RoudCmEijYkfbkVI4QQqO7JyCZJ/bmnXxd4CF/WTpe2kFNCQbhC\nYHsE555W5ROXKaAQ/Nr9CUDBosGqTqJLbUDslfy/GvULPsUyk931oU1vXSbXlHBW\nujVPVEDnAgMBAAECggEAGC8TDJkyjd7HutUX1DueOVTAk42Z8T5qg0EAJXr+XJSC\nbzsk1OeU7AQdiyiQtwn2OqnnwcGEyPgnvRAO53qnf2DEwK8nl0XNBASezYEIISsY\ngzaDYXA8drguGTLlANoKUW7ZfZebNzcNV/Zka+UOP6GYs+QkMJ0BtZLB8WgANgNA\nRS+kc2+AEnLovkl5qBGBAmNzfweB6sGh4DxJWMHtdVpjeSkFVTxzcRMLaCKU3I7a\nu82oeu932cntXUO9Uk8/Sa0qb3d2qNqBzzHy2/a1ACAUyi03g3Twdbm2OAQgYqjp\nRM6I4D43fE7mcGXchRq/3u42iRyNV+c0MXFIAL2EEQKBgQDt8cBNkjy54dcJDJtU\nm7IxbfPjvhZ8uZooYipkwtbg+H690V9pQ4Nuy5QS2F+IsQ7+6fIztZo7iokj1rry\n6jCwaZWEECcmp5wpL/bq7WdTJat/1nUmzBaRkcVmn1QjbHp19t0191umKXSiVQzZ\nLrBIVIqoXc0V7yH/ix7IRsMSmwKBgQDARfPHKQAoa//kAl/FpiB3fwCZ52FUhuUm\nFMcAdT9Cin1ByL+sxd0jjpxyrq9V2E0xus13/0NLGorpx5ptUDoNROnqC8VPT4sF\nlW5VcHVay1EunocgBCtungZyYSDJf4JGEUDr6hynJKObfiETjXIEngunG9OoBClZ\nloJszUp5pQKBgAbY9C3HTZQT2bpa8IVozaH6hhBBwifot3T+DjZEHSbwP8V6pwJC\nfR/NH//C1kz6u3G+jcfLLBsWi4fKgCrJbolFIJZiWJ4WKLpOtQ5hsp2D8gGFzG1H\nZkbeKQ4g+6zhTEzkw8zvx2Vqv/6D8BC39T6/oBXkTSiabyIJgONGlgqNAoGAUN1a\nwLlqupVpgtDIzMyovPkqHJBmq/Er8M8uPvAQ0gCC26b9jkGNVwYEoGr9jQIyvSaO\ngdhWygB4ygfL2Au0zp3cLzYSHuAaXRfS1pY8lRoLo6rCs+FtDtHhbjuRWY2KEcPx\n5QaKVHWhZaUvbhTADlcWGYsngnN1nJsjcXUJzI0CgYA6vQBcW7jbEut2sreU5IVX\neC2kohF7KnZoC6nIv3zYvmZlNBa+u63Vz1Sl9M8OH+5W2ZXvWzp1BMunsJaOeg/b\nX3oXwcX10UlwGACCPWlMtg3zv4uRHD7Lo6BIHv8WHGA3YTxhYADQhRcnwfKe3dZG\nZBaSgIRGGfQWpj/cnv0/zw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@kumanawildtrails-83deb.iam.gserviceaccount.com",
+  "client_id": "110410124070031654063",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40kumanawildtrails-83deb.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

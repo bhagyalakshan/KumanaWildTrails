@@ -1,0 +1,234 @@
+/* DriverHeader.css */
+.driver-header {
+    background: linear-gradient(135deg, #1e9871 0%, #2c3e50 100%) !important;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+    transition: background 0.3s ease;
+  }
+  
+  /* Additional styles for new elements */
+.sidebar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #059669;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+  }
+  
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .close-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #6b7280;
+  }
+  
+  .field-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #374151;
+  }
+  
+  .error-message {
+    color: #dc2626;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background: #fef2f2;
+    border-radius: 4px;
+    border-left: 4px solid #dc2626;
+  }
+  
+  .success-message {
+    color: #059669;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background: #f0fdf4;
+    border-radius: 4px;
+    border-left: 4px solid #059669;
+  }
+  
+  .changes-summary {
+    background: #f8fafc;
+    padding: 1rem;
+    border-radius: 6px;
+    margin: 1rem 0;
+  }
+  
+  .change-item {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .change-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .modal-actions {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+  }
+  
+  .cancel-button {
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #d1d5db;
+    background: white;
+    border-radius: 6px;
+    color: #374151;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .cancel-button:hover:not(:disabled) {
+    background: #f9fafb;
+  }
+  
+  .confirm-button {
+    padding: 0.75rem 1.5rem;
+    background: #059669;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .confirm-button:hover:not(:disabled) {
+    background: #047857;
+  }
+  
+  .cancel-button:disabled,
+  .confirm-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .loading-spinner {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid transparent;
+    border-top: 2px solid currentColor;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 0.5rem;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  /* Remove problematic animations and simplify */
+  .profile-btn {
+    background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%) !important;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.2s ease;
+  }
+  
+  .profile-btn:hover {
+    transform: translateY(-1px);
+  }
+  
+  .notification-btn {
+    background: linear-gradient(135deg, #e67e22 0%, #f39c12 100%) !important;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.2s ease;
+  }
+  
+  .notification-btn:hover {
+    transform: translateY(-1px);
+  }
+  
+  .notification-badge {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #27ae60;
+  }
+  
+  /* Simplify dropdown animations */
+  .dropdown-menu-custom {
+    background: rgba(255, 255, 255, 0.98);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    /* Remove complex animations */
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .dropdown-header {
+    background: linear-gradient(135deg, #1e9871 0%, #27ae60 100%);
+    color: white;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .dropdown-item-custom {
+    padding: 12px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    transition: background-color 0.2s ease;
+    color: #2c3e50;
+    font-weight: 500;
+  }
+  
+  .dropdown-item-custom:hover {
+    background-color: #f8f9fa;
+    color: #1e9871;
+    /* Remove transform to prevent layout shift */
+  }
+  
+  .notification-panel {
+    min-width: 350px;
+    max-height: 400px;
+  }
+  
+  .notification-item {
+    border-left: 4px solid #27ae60;
+    transition: background-color 0.2s ease;
+  }
+  
+  .notification-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .clear-btn {
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+  }
+  
+  .notification-item:hover .clear-btn {
+    opacity: 1;
+  }
+  
+  .profile-img {
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    transition: border-color 0.2s ease;
+  }
+  
+  /* Remove complex text effects that can cause blinking */
+  .welcome-text {
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Ensure stable layout */
+  .driver-header {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Remove problematic keyframe animations */

@@ -1,0 +1,26 @@
+/* src/components/ui/adminDashboard-ui/Calendar.css */
+.rounded {
+  border-radius: 0.25rem;
+  border: 1px solid #dee2e6; /* Optional: Add border for visibility */
+  padding: 0.5rem;
+}
+
+/* Additional styles for the Calendar component */
+.calendar-container {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-day {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.calendar-day:hover {
+  background-color: #f0f0f0;
+}
+
+.calendar-day--has-data {
+  background-color: #e6f3ff;
+  font-weight: bold;
+}

@@ -1,0 +1,5 @@
+.form-control {
+  background-color: #fff !important;  /* white background */
+  color: #212529 !important;         /* dark text */
+  border: 1px solid #ced4da !important;
+}
