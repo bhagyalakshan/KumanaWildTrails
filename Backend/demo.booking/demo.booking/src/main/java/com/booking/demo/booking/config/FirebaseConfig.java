@@ -18,7 +18,7 @@ public class FirebaseConfig {
     public FirebaseAuth firebaseAuth() throws IOException {
         if (FirebaseApp.getApps().isEmpty()) {
             FileInputStream serviceAccount =
-                    new FileInputStream("C:\\Users\\Hello\\Desktop\\currently working\\Booking_Management\\demo.booking\\demo.booking\\src\\main\\resources\\fIrebase\\FBAuth.json");
+                    new FileInputStream("C:\\Users\\Hello\\Desktop\\currently working\\KumanaWildTrails\\Backend\\demo.booking\\demo.booking\\src\\main\\resources\\fIrebase\\FBAuth.json");
 
             FirebaseOptions options = FirebaseOptions.builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))

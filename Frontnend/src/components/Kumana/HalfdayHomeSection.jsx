@@ -15,7 +15,7 @@ const HalfDaySection = () => {
   const location = useLocation();
   const packageDetails = location.state || {
     packageName: 'Kumana National Park Half-Day Safari',
-    packagePrice: 90.0,
+    packagePrice: 85.0,
   };
 
   const isMobile = useMediaQuery({ maxWidth: 576 });

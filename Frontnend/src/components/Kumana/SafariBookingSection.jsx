@@ -15,7 +15,7 @@ const HomeSection = () => {
   const location = useLocation();
   const packageDetails = location.state || {
     packageName: 'Kumana National Park Safari Packages',
-    packagePrice: 150.0,
+    packagePrice:85.0,
   };
 
   const isMobile = useMediaQuery({ maxWidth: 576 });
